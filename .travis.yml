@@ -4,6 +4,5 @@ go:
   - 1.3
 
 script:
-  - make
   - make test
-  - sudo make test
+  - make test-sudo
