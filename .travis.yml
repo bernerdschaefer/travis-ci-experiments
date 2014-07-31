@@ -5,5 +5,5 @@ go:
 
 script:
   - uname -a
-  - grep "_NS\|CGROUP\|MEMCG" /boot/config-* | sort
+  - grep "_NS\|CGROUP\|MEMCG" /boot/config* | sort
   - make test-sudo
